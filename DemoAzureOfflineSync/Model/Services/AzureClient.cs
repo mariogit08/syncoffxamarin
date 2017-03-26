@@ -42,6 +42,7 @@ namespace DemoAzureOfflineSync
 
 		public async void AddContact(Contact contact) 
 		{
+            //Adicionando registro 
 			await _table.InsertAsync(contact);
 
 		}
